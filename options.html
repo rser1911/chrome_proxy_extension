@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>a1is proxy</title>
+<style>
+
+    body { text-align: center; }
+    #rules { height: 200px; resize: none; width: 394px; margin-bottom: 5px;}
+    #save {width: 400px; margin-top: 8px; }
+    #status { text-align: center; margin-top: 10px;}
+    #host, #port {width: 190px;}
+    #toggle {width: 400px; margin-bottom: 8px; padding: 5px; background: #ff8080; font-weight: bold; font-size: 1.3em; border-radius: 14px; }
+    #toggle.disabled { background: #31fb7b; }
+
+</style>
+</head>
+<body>
+
+    <button id="toggle">Enable</button>
+    <textarea id="rules" placeholder="rules"></textarea>
+    <input id="host" placeholder="host" />
+    <input id="port" placeholder="port" />
+    <button id="save">Save &amp; Apply</button>
+    <div id="status"></div>
+    <script src="options.js"></script>
+
+</body>
+</html>
